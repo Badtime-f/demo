@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	#这个是 github 的仓库地址
+    url = https://github.com.cnpmjs.org/Badtime-f/demo.git	
+	#在此处加上 gitee 的仓库地址
+	url = https://gitee.com/wl_com/demo.git
+	fetch = +refs/heads/*:refs/remotes/prigin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
